@@ -107,7 +107,7 @@ nav a:hover{
 .about{
     padding:100px 8%;
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(2,1fr);
     gap:50px;
     align-items:center;
 }
@@ -130,7 +130,7 @@ nav a:hover{
 
 .about-features{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(3,1fr);
     gap:15px;
     margin-top:20px;
     font-weight:500;
@@ -147,7 +147,7 @@ nav a:hover{
     gap:20px;
     text-align:center;
 }
- .stats-slider{
+.stats-slider{
     display:flex;
     gap:20px;
 
@@ -168,16 +168,6 @@ nav a:hover{
 
 .stat-card p{
     margin-top:10px;
-}
-@keyframes slideOnce{
-
-    0%{
-        transform:translateX(100%);
-    }
-
-    100%{
-        transform:translateX(0);
-    }
 }
 
 
