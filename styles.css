@@ -520,3 +520,40 @@ footer p{
         font-size:32px;
     }
 }
+@media (max-width:780px){
+
+    header{
+        padding:15px 5%;
+        flex-direction:column;
+    }
+
+    nav{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+
+    nav a{
+        font-size:14px;
+        margin:0;
+    }
+
+    .hero{
+        min-height:100vh;
+        padding-top:100px;
+        padding-left:15px;
+        padding-right:15px;
+        min-width: 50px
+    }
+
+    .hero h1{
+        font-size:32px;
+    }
+
+    .hero p{
+        font-size:16px;
+        line-height:1.6;
+    }
+}
+
